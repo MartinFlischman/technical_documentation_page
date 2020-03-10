@@ -1,6 +1,8 @@
 html,
 body {
-    min-width: 290px;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
     color: #000000;
     background-color: #ffffff;
     font-family: sans-serif;
@@ -63,7 +65,7 @@ header.intro {
 
 #main-doc {
     position: absolute;
-    margin-left: 310px;
+    margin-left: 320px;
     padding: 20px;
     margin-bottom: 110px;
 }
@@ -103,7 +105,6 @@ section li {
 code {
     display: block;
     text-align: left;
-    white-space: pre;
     position: relative;
     word-break: normal;
     word-wrap: normal;
